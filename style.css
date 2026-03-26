@@ -127,9 +127,56 @@ body {
 }
 
 /* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
+.footer {
     background: #020617;
-    margin-top: 30px;
+    color: #cbd5f5;
+    padding-top: 40px;
+}
+
+/* Container */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 50px 30px;
+    gap: 30px;
+}
+
+/* Columns */
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-col h2,
+.footer-col h3 {
+    color: #38bdf8;
+    margin-bottom: 15px;
+}
+
+.footer-col p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Links */
+.footer-col a {
+    display: block;
+    text-decoration: none;
+    color: #cbd5f5;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.footer-col a:hover {
+    color: #38bdf8;
+    padding-left: 5px;
+}
+
+/* Bottom */
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #1e293b;
+    padding: 15px;
+    font-size: 14px;
 }
